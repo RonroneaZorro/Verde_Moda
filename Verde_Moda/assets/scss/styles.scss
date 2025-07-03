@@ -1,0 +1,30 @@
+nav {
+  ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4ef642;
+  }
+
+  li {
+    float: left;
+    border-right: 1px solid #d5f5e3;
+  }
+
+  li a {
+    display: block;
+    color: #074221;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #2050f06b;
+  }
+}
+
+body {
+  background-color: #d5f5e3;
+}

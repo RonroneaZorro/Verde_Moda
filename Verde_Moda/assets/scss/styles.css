@@ -1,0 +1,25 @@
+nav ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4ef642;
+}
+nav li {
+  float: left;
+  border-right: 1px solid #d5f5e3;
+}
+nav li a {
+  display: block;
+  color: #074221;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: rgba(32, 80, 240, 0.4196078431);
+}
+
+body {
+  background-color: #d5f5e3;
+}/*# sourceMappingURL=styles.css.map */
