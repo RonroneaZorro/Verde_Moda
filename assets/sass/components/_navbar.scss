@@ -1,0 +1,47 @@
+@use '../abstracts/variables' as *;
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  overflow-x: hidden;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: $primary_2;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &--right {
+      margin-left: auto;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0 16px;
+    color: $primary_4;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: Verdana, sans-serif;
+
+    &:hover {
+      background-color: $primary_3;
+    }
+  }
+
+  &__icon {
+    margin-left: 10px;
+  }
+}

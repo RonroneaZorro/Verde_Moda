@@ -1,0 +1,29 @@
+// Abstracts
+@use "abstracts/variables" as *;
+// Media Queries
+@use "abstracts/media";
+
+// Vendors
+/*@use 'vendors/bootstrap';*/
+
+// Base
+@use "base/base";
+@use "base/typography";
+
+// Layout
+@use "layouts/footer";
+
+// Components
+@use "components/navbar";
+@use "components/hero";
+@use "components/gallery";
+@use "components/product-card";
+@use "components/forms";
+
+// Pages
+@use "pages/products";
+
+// Themes
+/*@use "themes/default";*/
+
+

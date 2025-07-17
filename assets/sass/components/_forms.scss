@@ -1,0 +1,44 @@
+@use '../abstracts/variables' as *;
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-family: "Helvetica", "Sans-serif";
+
+  &__title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  &__label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+
+  &__input,
+  &__textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid $primary_4;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: white;
+  }
+
+  &__button {
+    background-color: $primary_4;
+    color: $primary_1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary_3;
+    }
+  }
+}
