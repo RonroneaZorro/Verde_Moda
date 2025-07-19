@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VerdeModaBEM</title>
+  <link rel="icon" href="assets/img/detective.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                        VerdeModa
+                        <img class="nav__icon" src="assets/img/cilantro 24.png" alt="Logo">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="productos.html" class="nav__link">
+                        Productos
+                        <img class="nav__icon" src="assets/img/arriba.png" alt="Icono">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="contacto.html" class="nav__link ">
+                        Ayúdanos a cuidar el medio ambiente!
+                        <img class="nav__icon" src="assets/img/correo-electronico.png" alt="Correo">
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://wa.me/+56912345678" class="nav__link" target="_blank">
+                        <img src="assets/img/whatsapp.png" alt="WhatsApp">
+                    </a>
+                </li>
+                <li class="nav__item nav__item--right">
+                    <a href="#" class="nav__link">
+                        <img style="margin-right: 10px;" src="assets/img/carrito-de-compras.png" alt="Carrito">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+  <main class="main">
+    <h1 class="product-list__title">
+      ¡Tenemos lo que andas buscando!
+      <img class="product-list__icon" src="assets/img/ropa 64.png" alt="Ropa" style="vertical-align: middle;" />
+    </h1>
+
+    <div class="product-filter">
+      <select class="product-filter__select">
+        <option value="all">Todo</option>
+        <option value="Poleres">Poleras</option>
+        <option value="Polerones">Polerones</option>
+        <option value="Pantalones">Pantalones</option>
+      </select>
+
+      <select class="product-filter__select">
+        <option value="all">Todas las tallas</option>
+        <option value="S">Talla S</option>
+        <option value="M">Talla M</option>
+        <option value="L">Talla L</option>
+        <option value="XL">Talla XL</option>
+      </select>
+    </div>
+
+    <div class="product-list row">
+      <div class="product-list__item column">
+        <div class="product-card">
+          <img src="assets/img/poleron 1.webp" alt="Poleron1" class="product-card__image" />
+          <h3 class="product-card__title">Polerón hoodie verde</h3>
+          <p class="product-card__price">$19.990</p>
+          <p class="product-card__sizes">Tallas: S-M-L-XL</p>
+          <p><button class="product-card__button">Agregar al carrito</button></p>
+        </div>
+      </div>
+
+      <div class="product-list__item column">
+        <div class="product-card">
+          <img src="assets/img/poleron 2.webp" alt="Poleron 2" class="product-card__image" />
+          <h3 class="product-card__title">Polerón con medio cierre</h3>
+          <p class="product-card__price">$29.990</p>
+          <p class="product-card__sizes">Tallas: S-M-L-XL</p>
+          <p><button class="product-card__button">Agregar al carrito</button></p>
+        </div>
+      </div>
+
+      <div class="product-list__item column">
+        <div class="product-card">
+          <img src="assets/img/poleron 3.webp" alt="Polera3" class="product-card__image" />
+          <h3 class="product-card__title">Polerón hoodie con cierre</h3>
+          <p class="product-card__price">$9.990</p>
+          <p class="product-card__sizes">Tallas: S-M-L-XL</p>
+          <p><button class="product-card__button">Agregar al carrito</button></p>
+        </div>
+      </div>
+
+      <div class="product-list__item column">
+        <div class="product-card">
+          <img src="assets/img/poleron 4.webp" alt="Polera4" class="product-card__image" />
+          <h3 class="product-card__title">Polerón Polo Verde</h3>
+          <p class="product-card__price">$19.990</p>
+          <p class="product-card__sizes">Tallas: S-M-L-XL</p>
+          <p><button class="product-card__button">Agregar al carrito</button></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__text">VerdeModa 2025</p>
+    </div>
+  </footer>
+</body>
+
+</html>
