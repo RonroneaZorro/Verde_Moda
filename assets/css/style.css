@@ -50,6 +50,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .container {
   width: 80vw;
   max-width: 1200px;
@@ -68,6 +69,8 @@ h1 {
   background-color: #88e581;
 }
 
+=======
+>>>>>>> a0a438010bdaac3f85574f4eda1f94186bd9b80f
 .footer {
   background-color: #88e581;
   text-align: center;
