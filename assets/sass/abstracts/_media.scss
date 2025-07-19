@@ -1,7 +1,6 @@
 
 @media (max-width: 768px) {
   .gallery__item,
-  .offers__item,
   .product-list__item {
     flex: 1 1 100%;
     max-width: 100%;
@@ -9,6 +8,7 @@
 
   .nav__list {
     flex-direction: column;
+    text-align: center;
   }
 
   .product-filter {

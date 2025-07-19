@@ -1,29 +1,30 @@
 // Abstracts
-@import 'abstracts/variables';
+@use 'abstracts/variables';
 // Media Queries
-@import 'abstracts/media';
+@use 'abstracts/media';
 
 // Vendors
-/*@import 'vendors/bootstrap';*/
+/*@use 'vendors/bootstrap';*/
 
 // Base
-@import 'base/base';
-@import 'base/typography';
+@use 'base/base';
+@use 'base/typography';
 
 // Layout
-@import 'layouts/footer';
+@use 'layouts/footer';
 
 // Components
-@import 'components/navbar';
-@import 'components/hero';
-@import 'components/gallery';
-@import 'components/product-card';
-@import 'components/forms';
+@use 'components/navbar';
+@use 'components/hero';
+@use 'components/gallery';
+@use 'components/product-card';
+@use 'components/forms';
+@use 'components/about';
 
 // Pages
-@import 'pages/products';
+@use 'pages/products';
 
 // Themes
-/*@import 'themes/default';*/
+/*@use 'themes/default';*/
 
 

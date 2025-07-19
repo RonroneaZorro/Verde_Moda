@@ -1,4 +1,4 @@
-@use '../abstracts/variables' as *;
+@use '../abstracts/variables';
 
 .gallery {
   text-align: center;
@@ -32,7 +32,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: $primary_4;
+    background-color: variables.$primary-4;
   }
 
   &__container:hover &__overlay {

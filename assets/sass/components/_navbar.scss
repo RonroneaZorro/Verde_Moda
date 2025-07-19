@@ -1,8 +1,9 @@
-@use '../abstracts/variables' as *;
+@use '../abstracts/variables';
 
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
+  margin-top: 0;
   width: 100%;
   z-index: 999;
   overflow-x: hidden;
@@ -11,7 +12,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: $primary_2;
+    background-color: variables.$primary-2;
     display: flex;
     align-items: center;
   }
@@ -31,13 +32,13 @@
     justify-content: center;
     height: 60px;
     padding: 0 16px;
-    color: $primary_4;
+    color: variables.$primary-4;
     text-decoration: none;
     transition: background-color 0.3s;
     font-family: Verdana, sans-serif;
 
     &:hover {
-      background-color: $primary_3;
+      background-color: variables.$primary-3;
     }
   }
 
