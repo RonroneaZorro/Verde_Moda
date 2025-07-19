@@ -11,35 +11,63 @@ El proyecto está organizado de manera modular y lógica para facilitar la naveg
 
 ..//
 ├── assets/
+
 │   ├── css/              # Archivos CSS compilados (generados por Sass)
+
 │   │   └── style.css
+
 │   ├── img/              # Imágenes del proyecto (contiene todas las imagenes)
+
 │   ├── js/               # Archivos JavaScript (en este caso no usaremos)
+
 │   └── scss/             # Archivos fuente de Sass (pre-procesador CSS)
+
 │       ├── abstracts     
+
 │       │   ├── _media.scss         # Responsividad en las imagenes y contenedores
+
 │       │   └── _variables.scss     # Variables de configuración (colores, fuentes, etc)
+
 │       ├── base
+
 │       │   ├── _base.scss          # Estilos base
+
 │       │   └── _typography.scss    # Estilos de letra
+
 │       ├── componentes             # Estilos para componentes (botons, cards)
+
 │       │   ├── _about.scss 
+
 │       │   ├── _forms.scss 
+
 │       │   ├── _gallery.scss 
+
 │       │   ├── _hero.scss 
+
 │       │   ├── _navbar.scss 
+
 │       │   └── _product-card.scss 
+
 │       ├── layouts                 # Estructura y diseño de secciones principales
-│       │   ├── _header.scss
+
 │       │   └── _footer.scss
+
 │       ├── pages                   # Estructura y diseño de paginas principales
+
 │       │   └── _products.scss
+
 │       ├── themes                  # Apariencia Darkmode y otros (en este caso no usaremos)
+
 │       ├── vendors                 # Import bootstrap y otros (en este caso no usaremos)
+
 │       └── style.scss
+
 ├── index.html       # Página principal del sitio
+
 ├── contacto.html    # Página de contacto
+
 ├── productos.html   # Página sobre los productos
+
 └── README.md        # Este archivo de documentación
 
 🎨 Paleta de Colores y Estilo
