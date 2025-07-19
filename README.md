@@ -10,6 +10,7 @@ Estructura de Carpetas
 El proyecto está organizado de manera modular y lógica para facilitar la navegación y el mantenimiento del código. En esta rama, los archivos Sass (.scss) han sido actualizados para reflejar los nuevos requerimientos de diseño.
 
 ..//
+
 ├── assets/
 
 │   ├── css/              # Archivos CSS compilados (generados por Sass)
