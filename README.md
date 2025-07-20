@@ -3,10 +3,13 @@
 Descripción General del Proyecto
 
 VerdeModa es una plataforma web que simula un comercio electrónico (e-commerce).
-Diseñada en base a productos de moda sostenible y ecológica. 
+
+Diseñada en base a productos de moda sostenible y ecológica
+. 
 Objetivo principal -> Ofrecer <- un compromiso con la sostenibilidad a través de su diseño y funcionalidad.
 
 Estructura de Carpetas
+
 El proyecto está organizado de manera modular y lógica para facilitar la navegación y el mantenimiento del código. En esta rama, los archivos Sass (.scss) han sido actualizados para reflejar los nuevos requerimientos de diseño.
 
 ..//
@@ -42,7 +45,7 @@ El proyecto está organizado de manera modular y lógica para facilitar la naveg
 │       │   ├── _forms.scss 
 
 │       │   ├── _gallery.scss 
-
+z
 │       │   ├── _hero.scss 
 
 │       │   ├── _navbar.scss 
@@ -74,13 +77,18 @@ El proyecto está organizado de manera modular y lógica para facilitar la naveg
 🎨 Paleta de Colores y Estilo
 
 Verde claro     #d5f5e3     - Fondo de la pagina
+
 Verde           #88e581     - Navbar/Footer
+
 Verde oscuro    #0742219e   - Texto sobre Navbar y Footer
+
 Hover           #2050f06b   - Sobre Navbar
 
 🧰 Tecnologías utilizadas 
 
 HTML5: Estructura del contenido.
+
 CSS
+
 Sass (SCSS): Preprocesador CSS para estilos modulares y mantenibles.
 
