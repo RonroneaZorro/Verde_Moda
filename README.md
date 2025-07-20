@@ -2,11 +2,9 @@
 
 Descripción General del Proyecto
 
-VerdeModa es una plataforma web que simula un comercio electrónico (e-commerce).
-
-Diseñada en base a productos de moda sostenible y ecológica
-. 
-Objetivo principal -> Ofrecer <- un compromiso con la sostenibilidad a través de su diseño y funcionalidad.
+- VerdeModa es una plataforma web que simula un comercio electrónico (e-commerce).
+- Diseñada en base a productos de moda sostenible y ecológica.
+- Objetivo principal -> Ofrecer <- un compromiso con la sostenibilidad a través de su diseño y funcionalidad.
 
 Estructura de Carpetas
 
@@ -45,7 +43,7 @@ El proyecto está organizado de manera modular y lógica para facilitar la naveg
 │       │   ├── _forms.scss 
 
 │       │   ├── _gallery.scss 
-z
+
 │       │   ├── _hero.scss 
 
 │       │   ├── _navbar.scss 
