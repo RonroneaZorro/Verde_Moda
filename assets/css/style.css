@@ -24,69 +24,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  background-color: #d5f5e3;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-  font-family: "Helvetica", "Sans-serif";
-}
-
-h1, h2, h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-family: "Helvetica", "Sans-serif";
-}
-
-h1 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-<<<<<<< HEAD
-.container {
-  width: 80vw;
-  max-width: 1200px;
-  margin: 0 auto;
-  border: 1px solid rgba(135, 137, 136, 0.6196078431);
-  padding: 20px;
-}
-@media (max-width: 768px) {
-  .container {
-    padding: 15px;
-  }
-}
-
-.header {
-  padding: 10px;
-  background-color: #88e581;
-}
-
-=======
->>>>>>> a0a438010bdaac3f85574f4eda1f94186bd9b80f
-.footer {
-  background-color: #88e581;
-  text-align: center;
-  padding: 20px 10px;
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-  color: rgba(7, 66, 33, 0.6196078431);
-  position: sticky;
-  bottom: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-.footer__text {
-  margin: 0;
-}
-
 .nav {
   position: sticky;
   top: 0;
@@ -140,6 +77,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  height: auto;
 }
 .gallery__item {
   flex: 1 1 25%;
@@ -151,11 +90,14 @@ h1 {
   position: relative;
   max-width: 300px;
   height: 200px;
+  border: rgba(135, 137, 136, 0.6196078431);
 }
 .gallery__image {
   display: block;
-  max-width: 300px;
-  height: 200px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery__overlay {
   position: absolute;
@@ -168,6 +110,9 @@ h1 {
   opacity: 0;
   transition: 0.5s ease;
   background-color: rgba(7, 66, 33, 0.6196078431);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .gallery__container:hover .gallery__overlay {
   opacity: 1;
@@ -265,40 +210,6 @@ h1 {
   border: 2px solid rgba(7, 66, 33, 0.6196078431);
   margin: 20px;
   padding: 20px;
-}
-
-.product-filter {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 20px;
-}
-.product-filter__select {
-  padding: 10px;
-  border: 2px solid rgba(7, 66, 33, 0.6196078431);
-  border-radius: 5px;
-  background-color: white;
-  font-size: 16px;
-}
-
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.product-list__item {
-  flex: 1 1 25%;
-  max-width: 25%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
-.product-list__title {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.product-list__icon {
-  margin-left: 10px;
 }
 
 /*@use 'themes/default';*/

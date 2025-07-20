@@ -1,17 +1,1 @@
 @use '../abstracts/variables';
-
-.container {
-    width: 80vw;
-    max-width: 1200px; 
-    margin: 0 auto; 
-    border: 1px solid variables.$primary-5; 
-    padding: 20px; 
-    
-    @media (max-width: 768px) { 
-        padding: 15px; 
-    }
-}
-.header {
-    padding: 10px;
-    background-color: variables.$primary-2;
-    }

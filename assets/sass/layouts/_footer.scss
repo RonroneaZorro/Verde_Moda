@@ -1,19 +1,1 @@
 @use '../abstracts/variables';
-
-.footer {
-  background-color: variables.$primary-2;
-  text-align: center;
-  padding: 20px 10px;
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-  color: variables.$primary-4;
-  position: sticky;
-  bottom: 0;
-  width: 100%;
-  overflow-x: hidden;
-
-  &__text {
-    margin: 0;
-  }
-}
-
