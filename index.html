@@ -1,68 +1,60 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VerdeModa4</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/detective.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-
+<body class="body">
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link">
-                            VerdeModa
-                            <img class="nav__icon" src="assets/img/cilantro 24.png" alt="Logo">
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="productos.html" class="nav__link">
-                            Productos
-                            <img class="nav__icon" src="assets/img/arriba.png" alt="Icono">
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contacto.html" class="nav__link ">
-                            Ayúdanos a cuidar el medio ambiente!
-                            <img class="nav__icon" src="assets/img/correo-electronico.png" alt="Correo">
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="https://wa.me/+56912345678" class="nav__link" target="_blank">
-                            <img src="assets/img/whatsapp.png" alt="WhatsApp">
-                        </a>
-                    </li>
-                    <li class="nav__item nav__item--right">
-                        <a href="#" class="nav__link">
-                            <img style="margin-right: 10px;" src="assets/img/carrito-de-compras.png" alt="Carrito">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="main">
-        <section class="hero">
-            <div class="container">
-                <h1 class="hero__title">
-                    VerdeModa
-                    <img class="hero__icon" src="assets/img/cilantro 64.png" alt="Icono principal"
-                        style="vertical-align: -30%;">
-                </h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">VerdeModa <img class="navbar-icon" style="width: 40px; margin-bottom: 10px;"
+                        src="assets/img/cilantro 64.png" alt="icon navbar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="navbar-item">
+                            <a class="navbar-link" aria-current="page" href="#">Productos <img class="navbar-icon"
+                                    src="assets/img/navbar/arriba.png" alt="icon navbar"></a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#">Ayúdanos a cuidar el medio ambiente!<img class="navbar-icon"
+                                    src="assets/img/navbar/correo-electronico.png" alt="icon navbar"></a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="https://wa.me/+56912345678"><img class="navbar-icon"
+                                    src="assets/img/navbar/whatsapp.png" alt="icon navbar"></a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <img src="assets/img/navbar/carrito-de-compras.png" alt="icon navbar">
+                    </span>
+                </div>
             </div>
-        </section>
+        </nav>
+    </header>
+    <main>
 
-        <section class="gallery row">
+        <div class="container">
+            <h1 class="container__title">
+                VerdeModa
+                <img class="container__icon-title" src="assets/img/cilantro 64.png" alt="Icono principal">
+            </h1>
+        </div>
+
+
+        <section class="container">
+            <div class="gallery row">
                 <div class="gallery__item column">
                     <div class="gallery__container">
-                        <img src="assets/img/body1.jpeg" alt="Imagen izquierda" class="gallery__image">
+                        <img src="assets/img/hero/body1.jpeg" alt="Imagen izquierda" class="gallery__image">
                         <div class="gallery__overlay">
                             <div class="gallery__text">Viste con conciencia, vive con estilo.</div>
                         </div>
@@ -70,7 +62,7 @@
                 </div>
                 <div class="gallery__item column">
                     <div class="gallery__container">
-                        <img src="assets/img/body2.jpeg" alt="Imagen centro izquierda" class="gallery__image">
+                        <img src="assets/img/hero/body2.jpeg" alt="Imagen centro izquierda" class="gallery__image">
                         <div class="gallery__overlay">
                             <div class="gallery__text">Moda que cuida el planeta, inspira tu estilo.</div>
                         </div>
@@ -78,7 +70,7 @@
                 </div>
                 <div class="gallery__item column">
                     <div class="gallery__container">
-                        <img src="assets/img/body3.webp" alt="Imagen centro derecha" class="gallery__image">
+                        <img src="assets/img/hero/body3.webp" alt="Imagen centro derecha" class="gallery__image">
                         <div class="gallery__overlay">
                             <div class="gallery__text">Sustentable. Accesible. Inolvidable.</div>
                         </div>
@@ -86,7 +78,7 @@
                 </div>
                 <div class="gallery__item column">
                     <div class="gallery__container">
-                        <img src="assets/img/body4.jpg" alt="Imagen derecha" class="gallery__image">
+                        <img src="assets/img/hero/body4.jpg" alt="Imagen derecha" class="gallery__image">
                         <div class="gallery__overlay">
                             <div class="gallery__text">Tu estilo deja huella… verde.</div>
                         </div>
@@ -95,12 +87,12 @@
             </div>
         </section>
 
-        <section class="about">
-            <h2 class="about__title">
+        <section class="container">
+            <h2 class="container__title">
                 Sobre Nosotros
-                <img class="about__icon" src="assets/img/reciclar.png" alt="Reciclar" style="vertical-align: middle;">
+                <img class="container_icon" src="assets/img/body/reciclar.png" alt="Reciclar" style="vertical-align: middle;">
             </h2>
-            <div class="about__text">
+            <div class="container__text">
                 <p>Una pequeña tienda de ropa sustentable que nació con el propósito de ofrecer moda consciente,
                     combinando
                     estilo y compromiso con el medio ambiente. Su crecimiento ha sido orgánico, impulsado por el boca a
@@ -115,16 +107,17 @@
             </div>
         </section>
 
-        <section class="offers">
+        <section class="container">
+            <div class="offers">
             <h2 class="offers__title">
                 Ofertas
-                <img class="offers__icon" src="assets/img/ofertas 32.png" alt="Ofertas" style="vertical-align: middle;">
+                <img class="offers__icon" src="assets/img/body/ofertas 32.png" alt="Ofertas" style="vertical-align: middle;">
             </h2>
             <div class="product-list row">
-                <div class="product-list__item column">
+                <div class="product-list__item col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-card">
-                        <img src="assets/img/poleron 1.webp" alt="Poleron1" class="product-card__image" />
-                        <h3 class="product-card__title">Polerón hoodie verde</h3>
+                        <img src="assets/img/products/poleron 1.webp" alt="Poleron1" class="product-card__image" />
+                        <p class="product-card__title">Polerón hoodie verde</p>
                         <p class="product-card__price product-card__price--old">$39.990</p>
                         <p class="product-card__price">$19.990</p>
                         <p class="product-card__sizes">Tallas: S-M-L-XL</p>
@@ -132,10 +125,10 @@
                     </div>
                 </div>
 
-                <div class="product-list__item column">
+                <div class="product-list__item col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-card">
-                        <img src="assets/img/poleron 2.webp" alt="Poleron 2" class="product-card__image" />
-                        <h3 class="product-card__title">Polerón con medio cierre</h3>
+                        <img src="assets/img/products/poleron 2.webp" alt="Poleron 2" class="product-card__image" />
+                        <p class="product-card__title">Polerón con medio cierre</p>
                         <p class="product-card__price product-card__price--old">$39.990</p>
                         <p class="product-card__price">$29.990</p>
                         <p class="product-card__sizes">Tallas: S-M-L-XL</p>
@@ -143,10 +136,10 @@
                     </div>
                 </div>
 
-                <div class="product-list__item column">
+                <div class="product-list__item col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-card">
-                        <img src="assets/img/poleron 3.webp" alt="Polera3" class="product-card__image" />
-                        <h3 class="product-card__title">Polerón hoodie con cierre</h3>
+                        <img src="assets/img/products/poleron 3.webp" alt="Polera3" class="product-card__image" />
+                        <p class="product-card__title">Polerón hoodie con cierre</p>
                         <p class="product-card__price product-card__price--old">$14.990</p>
                         <p class="product-card__price">$9.990</p>
                         <p class="product-card__sizes">Tallas: S-M-L-XL</p>
@@ -154,25 +147,23 @@
                     </div>
                 </div>
 
-                <div class="product-list__item column">
+                <div class="product-list__item col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-card">
-                        <img src="assets/img/poleron 4.webp" alt="Polera4" class="product-card__image" />
-                        <h3 class="product-card__title">Polerón Polo Verde</h3>
+                        <img src="assets/img/products/poleron 4.webp" alt="Polera4" class="product-card__image" />
+                        <p class="product-card__title">Polerón Polo Verde</p>
                         <p class="product-card__price product-card__price--old">$29.990</p>
                         <p class="product-card__price">$19.990</p>
                         <p class="product-card__sizes">Tallas: S-M-L-XL</p>
                         <p><button class="product-card__button">Agregar al carrito</button></p>
                     </div>
                 </div>
+            </div>
+            </div>
         </section>
     </main>
-
     <footer class="footer">
-        <div class="footer__content">
-            <p class="footer__text">VerdeModa 2025</p>
-        </div>
+        <p class="footer-text">© 2025 VerdeModa. Todos los derechos reservados.</p>
     </footer>
 </body>
-
 
 </html>

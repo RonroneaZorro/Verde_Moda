@@ -1,12 +1,12 @@
-@use '../abstracts/variables';
+@use '../abstracts/variables' as *;
 
 .gallery {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  height: auto;
+  margin: 0;
+  padding: 0;
 
   &__item {
     flex: 1 1 25%;
@@ -17,16 +17,14 @@
 
   &__container {
     position: relative;
-    max-width: 300px;
+    max-width: 700px;
     height: 200px;
-    border: variables.$primary-5;
   }
 
   &__image {
     display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
   }
 
   &__overlay {
@@ -36,10 +34,7 @@
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: variables.$primary-4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: $primary-4;
   }
 
   &__container:hover &__overlay {
@@ -48,10 +43,11 @@
 
   &__text {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px $primary-1, 0 0 5px $primary-3;
   }
 }

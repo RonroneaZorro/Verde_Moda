@@ -1,1 +1,18 @@
-@use '../abstracts/variables';
+@use '../abstracts/variables' as *;
+
+.footer {
+  height: 100px;                       
+  padding: 20px;                       
+  margin-top: 50px;                  
+  background-color: $primary-2; 
+  color: $primary-3;       
+  text-align: center;                 
+  box-sizing: border-box;
+
+  &__text {
+    margin: 0;
+    padding: 0;
+  }
+
+
+}

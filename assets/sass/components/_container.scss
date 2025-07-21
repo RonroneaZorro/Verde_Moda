@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as *;
+
+.container {
+    width: 80vw;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid $secundary;
+
+    &__icon {
+
+        &-title {
+            margin-left: 10px;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__text {
+        background-color: $primary-1;
+        border-radius: 25px;
+        font-size: 20px;
+        color: $primary-3;
+        border: 2px solid $primary-3;
+        margin: 20px;
+        padding: 20px;
+    }
+}

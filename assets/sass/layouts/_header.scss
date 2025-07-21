@@ -1,1 +1,47 @@
-@use '../abstracts/variables';
+@use '../abstracts/variables' as *;
+
+.header {
+  width: 100%;
+  padding: 10px;
+  top: 0px;
+  color: $primary-3;
+  background-color: $primary-2;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: $primary-2;
+  color: $primary-3;
+
+  &-icon {
+    margin-left: 10px;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0 10px;
+    color: $primary-3;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: Verdana, sans-serif;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &-brand {
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: $primary-3;
+    text-shadow: 1px 1px 2px $primary-4, 0 0 25px $primary-1, 0 0 5px $primary-3;
+  }
+
+  .navbar-brand:hover {
+    color: $primary-1;
+  }
+}
